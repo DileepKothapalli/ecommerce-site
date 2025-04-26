@@ -1,0 +1,17 @@
+# Node
+node_modules/
+
+# React
+client/node_modules/
+client/build/
+
+# Logs
+logs
+*.log
+
+# Environment
+.env
+
+# Misc
+.DS_Store
+*.pem
