@@ -28,3 +28,7 @@ app.get('/', (req, res) => {
 // Start the server
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
+
+
+// MONGO_URI=mongodb+srv://dileep:Pass123@cluster0.lsetbqn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+//PORT=5000
