@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import StyledCard from "../../shared/StyledCard";
-import ApplicationCard from "../../shared/ApplicationCard";
+import ApplicationCard from "../shared/ApplicationCard";
 import { Grid } from "@mui/material";
 import { useMemo } from "react";
 
@@ -9,7 +8,7 @@ const AdminHome = () => {
   const cards = useMemo(
     () => [
     { name: "Dashboard", icon: "", route: "/admin/dashboard" },
-    { name: "Products", icon: "", route: "/admin/products" },
+    { name: "Product Management", icon: "", route: "/admin/product-management" },
     { name: "Orders", icon: "", route: "/admin/orders" },
   ]);
   return (
